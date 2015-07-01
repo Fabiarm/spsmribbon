@@ -5,6 +5,26 @@ The project allows to manage visibility's tabs of the Ribbon for SharePoint 2013
 
 For more information, please see wiki https://github.com/Fabiarm/spsmribbon/wiki
 
+How does it work?
+* Open web site as user who can manage web
+* Find sharepoint group
+
+![](https://raw.githubusercontent.com/wiki/Fabiarm/spsmribbon/img/img14.PNG)
+
+* Check Ribbon tabs that should be hide
+
+![](https://raw.githubusercontent.com/wiki/Fabiarm/spsmribbon/img/img15.PNG)
+
+* Save changes
+* Please check results: 
+Before:
+
+![](https://raw.githubusercontent.com/wiki/Fabiarm/spsmribbon/img/img16.PNG)
+
+After:
+
+![](https://raw.githubusercontent.com/wiki/Fabiarm/spsmribbon/img/img17.PNG)
+
 **Version 1.0.0:**
 
 * Manage visiblity of Ribbon tabs (Manage, Share & Tracks, Copies and etc.) for different sharepoint groups;
