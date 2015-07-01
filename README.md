@@ -11,8 +11,8 @@ Version 1.0.0:
 * simple use;
 * simple activation;
 * working platforms:
-** SharePoint Foundation 2013;
-** Sharepoint Server 2013 (Standard, Enterprise); 
+* * SharePoint Foundation 2013;
+* * Sharepoint Server 2013 (Standard, Enterprise); 
 * localization:
 ** English;
 ** Russian; 
