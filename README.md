@@ -1,7 +1,7 @@
 # spsmribbon
 Manage Ribbon tabs for SharePoint 2013
 
-The feature is management of visibility's tabs of the Ribbon for SharePoint 2013. It is the best way to hide/show tabs for different SharePoint groups. Please see https://spmribbon.codeplex.com/
+The project allows to manage visibility's tabs of the Ribbon for SharePoint 2013. It is the best way to hide/show tabs for different SharePoint groups. Please see https://spmribbon.codeplex.com/
 
 Version 1.0.0:
 
