@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FA_Web_Description" xml:space="preserve">
+    <value>Позволяет  скрывать элементы ленты для разных SharePoint групп пользователей</value>
+  </data>
+  <data name="FA_Web_Title" xml:space="preserve">
+    <value>Управление лентой (Ribbon)</value>
+  </data>
+  <data name="PA_Alt" xml:space="preserve">
+    <value>Позволяет управлять лентой для разных SharePoint групп</value>
+  </data>
+  <data name="PA_Text" xml:space="preserve">
+    <value>Лента</value>
+  </data>
+  <data name="SS_Msg_AccessDenied" xml:space="preserve">
+    <value>У вас нет прав для просмотра данной страницы. Пожалуйста обратитесь к администратору.</value>
+  </data>
+  <data name="SS_Msg_AccessDenied_Title" xml:space="preserve">
+    <value>Информация:</value>
+  </data>
+  <data name="SS_Msg_Close_Title" xml:space="preserve">
+    <value>У вас есть несохраненные изменения. Хотите сохранить изменения?</value>
+  </data>
+  <data name="SS_Msg_Remove_Title" xml:space="preserve">
+    <value>Вы хотите удалить группу из списка?</value>
+  </data>
+  <data name="SS_Msg_SaveTempory" xml:space="preserve">
+    <value>Настройки сохранены для данной группы локально</value>
+  </data>
+  <data name="SS_PreSave_Help" xml:space="preserve">
+    <value>&lt;span style="width: 20px; height: 20px; overflow: hidden; display: inline-block; position: relative;"&gt;
+                                            &lt;img alt="" style="position: absolute; left: -195px; top: -174px;" src="/_layouts/15/images/spcommon.png" /&gt;
+                                        &lt;/span&gt;
+                                       Пожалуйста сохраните изменения для выбранной группы. Иначе ваши изменения будут потеряны. Если вы хотите сохранить все изменения то воспользуйтесь кнопкой ниже.</value>
+  </data>
+  <data name="SS_Tabs_Title" xml:space="preserve">
+    <value>Выберите категорию ленты, которую хотите скрыть для выбранной группы:</value>
+  </data>
+  <data name="SS_TD_Picker_Title" xml:space="preserve">
+    <value>Выберите категорию ленты, которую хотите скрыть для группы:</value>
+  </data>
+  <data name="SS_TH_Groups" xml:space="preserve">
+    <value>Выбранные группы</value>
+  </data>
+  <data name="SS_TH_Picker" xml:space="preserve">
+    <value>Используйте пикер для поиска групп</value>
+  </data>
+  <data name="SS_Help" xml:space="preserve">
+    <value>&lt;p style="padding-right: 5px; font-size: 15px;margin:0px;"&gt;
+                            Пожалуйста найдите SharePoint группу при помощи пикера. Когда вы найдете группу, можете добавить её используя кнопку
+                    &lt;span style="width: 22px; height: 22px; overflow: hidden; display: inline-block; position: relative;"&gt;
+                        &lt;img alt="" style="position: absolute; left: -65px; top: -179px; cursor: pointer;" src="/_layouts/15/images/spcommon.png" /&gt;
+                    &lt;/span&gt;
+                            &lt;br /&gt;
+                            Для выбора группы используйте кнопку 
+            &lt;span style="cursor: pointer; width: 20px; height: 20px; overflow: hidden; display: inline-block; position: relative; vertical-align: top;"&gt;
+                &lt;img style="position: absolute; left: -178px; top: -31px;" src="/_layouts/15/images/spcommon.png" /&gt;
+            &lt;/span&gt;
+                            &lt;br /&gt;
+                            Для удаления группы из списка используйте кнопку 
+            &lt;span style="cursor: pointer; width: 20px; height: 20px; overflow: hidden; display: inline-block; position: relative; vertical-align: top;"&gt;
+                &lt;img style="position: absolute; left: -178px; top: -75px;" src="/_layouts/15/images/spcommon.png" /&gt;
+            &lt;/span&gt;
+                        &lt;br/&gt;Для сохранения изменений используйте кнопку  &lt;span style="cursor: pointer; width: 32px; height: 32px; overflow: hidden; display: inline-block; position: relative;-ms-transform:scale(0.7);-moz-transform:scale(0.7);-webkit-transform:scale(0.7);-o-transform:scale(0.7);"&gt;&lt;img alt="" style="position: absolute; left: -308px; top: -478px;" src="/_layouts/15/images/SPS.MRibbon/formatmap32x32.png" /&gt;&lt;/span&gt;&lt;br/&gt;Для отмены изменений или закрытия окна настроек используйте кнопку &lt;span style="cursor: pointer; width: 32px; height: 32px; overflow: hidden; display: inline-block; position: relative;-ms-transform:scale(0.7);-moz-transform:scale(0.7);-webkit-transform:scale(0.7);-o-transform:scale(0.7);"&gt;&lt;img alt="" style="position: absolute; left: -205px; top: -69px;" src="/_layouts/15/images/SPS.MRibbon/formatmap32x32.png" /&gt;&lt;/span&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="SS_TH_NoGroups" xml:space="preserve">
+    <value>Не найдено выбранных групп</value>
+  </data>
+  <data name="SS_TH_Actions" xml:space="preserve">
+    <value>&lt;div class="tabs"&gt;
+                                &lt;div class="tab"&gt;
+                                    &lt;input type="radio" id="tab-1" name="tab-group-1" checked&gt;
+                                    &lt;label for="tab-1"&gt;Страница&lt;/label&gt;
+                                    &lt;div class="content"&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_p_edit" /&gt;Редактирование&lt;/span&gt;&lt;br /&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_p_mng" /&gt;Управление&lt;/span&gt;&lt;br /&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_p_share" /&gt;Общее&lt;/span&gt;&lt;br /&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_p_apprl" /&gt;Утверждение&lt;/span&gt;&lt;br /&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_p_wkf" /&gt;Рабочие процессы&lt;/span&gt;&lt;br /&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_p_acts" /&gt;Действия страницы&lt;/span&gt;&lt;br /&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_p_tags" /&gt;Тэги и заметки&lt;/span&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;div class="tab"&gt;
+                                    &lt;input type="radio" id="tab-2" name="tab-group-1"&gt;
+                                    &lt;label for="tab-2"&gt;Вики страница&lt;/label&gt;
+                                    &lt;div class="content"&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_wp_edit" /&gt;Редактирование&lt;/span&gt;&lt;br /&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_wp_mng" /&gt;Управление&lt;/span&gt;&lt;br /&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_wp_share" /&gt;Общее&lt;/span&gt;&lt;br /&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_wp_lsets" /&gt;Библиотека страниц&lt;/span&gt;&lt;br /&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_wp_acts" /&gt;Дейсвия страницы&lt;/span&gt;&lt;br /&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_wp_tags" /&gt;Тэги и заметки&lt;/span&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;div class="tab"&gt;
+                                    &lt;input type="radio" id="tab-3" name="tab-group-1"&gt;
+                                    &lt;label for="tab-3"&gt;Документы&lt;/label&gt;
+                                    &lt;div class="content"&gt;
+                                        &lt;table cellpadding="0" cellspacing="0" border="0"&gt;
+                                            &lt;tr&gt;
+                                                &lt;td style="padding-right: 5px;vertical-align: top;"&gt;
+                                                    &lt;span style="font-weight: 900;"&gt;&amp;nbsp;Файлы&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_df_new" /&gt;Создание&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_df_open" /&gt;Открытие&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_df_mng" /&gt;Управление&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_df_share" /&gt;Общее&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_df_copies" /&gt;Копии&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_df_wkf" /&gt;Рабочие процессы&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_df_tags" /&gt;Тэги и заметки&lt;/span&gt;
+                                                &lt;/td&gt;
+                                                &lt;td style="vertical-align: top;"&gt;
+                                                    &lt;span style="font-weight: 900;"&gt;&amp;nbsp;Библиотека&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_dl_view_frt" /&gt;Формат представлений&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_dl_view_mng" /&gt;Управление представлениями&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_dl_tags" /&gt;Тэги и заметки&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_dl_share" /&gt;Общее&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_dl_connect" /&gt;Соединение и экспорт&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_dl_cust_libs" /&gt;Пользовательская библиотека&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_dl_sets" /&gt;Настройки&lt;/span&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;div class="tab"&gt;
+                                    &lt;input type="radio" id="tab-4" name="tab-group-1"&gt;
+                                    &lt;label for="tab-4"&gt;Список&lt;/label&gt;
+                                    &lt;div class="content"&gt;
+                                        &lt;table cellpadding="0" cellspacing="0" border="0"&gt;
+                                            &lt;tr&gt;
+                                                &lt;td style="padding-right: 5px;vertical-align: top;"&gt;
+                                                    &lt;span style="font-weight: 900;"&gt;&amp;nbsp;Элементы&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_li_new" /&gt;Создание&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_li_acts" /&gt;Действия&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_li_mng" /&gt;Управление&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_li_share" /&gt;Общее&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_li_tags" /&gt;Тэги и заметки&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_li_wkf" /&gt;Рабочие процессы&lt;/span&gt;&lt;br /&gt;
+                                                &lt;/td&gt;
+                                                &lt;td style="vertical-align: top;"&gt;
+                                                    &lt;span style="font-weight: 900;"&gt;&amp;nbsp;Список&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ll_view_frt"" /&gt;Формат представлений&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ll_view_mng" /&gt;Управление представлениями&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ll_tags" /&gt;Тэги и заметки&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ll_share" /&gt;Общее&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ll_connect" /&gt;Соединение и экспорт&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ll_cust_list" /&gt;Пользовательский список&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ll_sets" /&gt;Настройки&lt;/span&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;div class="tab"&gt;
+                                    &lt;input type="radio" id="tab-5" name="tab-group-1"&gt;
+                                    &lt;label for="tab-5"&gt;Календарь&lt;/label&gt;
+                                    &lt;div class="content"&gt;
+                                        &lt;table cellpadding="0" cellspacing="0" border="0"&gt;
+                                            &lt;tr&gt;
+                                                &lt;td style="padding-right: 5px;vertical-align: top;"&gt;
+                                                    &lt;span style="font-weight: 900;"&gt;&amp;nbsp;События&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ce_new" /&gt;Создание&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ce_acts" /&gt;Дейстаия&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ce_mng" /&gt;Управление&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ce_tags" /&gt;Тэги и заметки&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ce_wkf" /&gt;Рабочие процессы&lt;/span&gt;&lt;br /&gt;
+                                                &lt;/td&gt;
+                                                &lt;td style="vertical-align: top;"&gt;
+                                                    &lt;span style="font-weight: 900;"&gt;&amp;nbsp;Календарь&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_cc_scope" /&gt;Области&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_cc_exp" /&gt;Раскрытие&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_cc_view_mng" /&gt;Управление представлениями&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_cc_tags" /&gt;Тэги и заметки&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_cc_share" /&gt;Общее&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_cc_connect" /&gt;Соединение и экспорт&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_cc_cust_list" /&gt;Пользовательский список&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_cc_sets" /&gt;Настройки&lt;/span&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;</value>
+  </data>
+</root>

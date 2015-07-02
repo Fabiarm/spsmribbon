@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FA_Web_Description" xml:space="preserve">
+    <value>Allow to manage ribbon for different sharepoint groups or users</value>
+  </data>
+  <data name="FA_Web_Title" xml:space="preserve">
+    <value>Ribbon management </value>
+  </data>
+  <data name="PA_Alt" xml:space="preserve">
+    <value>Allow to manage ribbon for sharepoint groups</value>
+  </data>
+  <data name="PA_Text" xml:space="preserve">
+    <value>Ribbon</value>
+  </data>
+  <data name="SS_Msg_AccessDenied" xml:space="preserve">
+    <value>You have no access to this page. Please contact with your administrator.</value>
+  </data>
+  <data name="SS_Msg_AccessDenied_Title" xml:space="preserve">
+    <value>Information:</value>
+  </data>
+  <data name="SS_Msg_Close_Title" xml:space="preserve">
+    <value>Do you have unsaved changes. Do you want to save the settings?</value>
+  </data>
+  <data name="SS_Msg_Remove_Title" xml:space="preserve">
+    <value>Do you want to remove the group from list?</value>
+  </data>
+  <data name="SS_Msg_SaveTempory" xml:space="preserve">
+    <value>Settings have been saved for selected group temporary</value>
+  </data>
+  <data name="SS_PreSave_Help" xml:space="preserve">
+    <value>&lt;span style="width: 20px; height: 20px; overflow: hidden; display: inline-block; position: relative;"&gt;
+                                            &lt;img alt="" style="position: absolute; left: -195px; top: -174px;" src="/_layouts/15/images/spcommon.png" /&gt;
+                                        &lt;/span&gt;
+                                        Please save settings for the group. Any else the changes have been absent. If you want to save all changes please use button below on page.</value>
+  </data>
+  <data name="SS_Tabs_Title" xml:space="preserve">
+    <value>Please select category of ribbon to hide for selected sharepoint group:</value>
+  </data>
+  <data name="SS_TD_Picker_Title" xml:space="preserve">
+    <value>Please select category of ribbon to HIDE for selected group:</value>
+  </data>
+  <data name="SS_TH_Groups" xml:space="preserve">
+    <value>Selected groups</value>
+  </data>
+  <data name="SS_TH_Picker" xml:space="preserve">
+    <value>Use picker to find sharepoint group</value>
+  </data>
+  <data name="SS_Help" xml:space="preserve">
+    <value>&lt;p style="padding-right: 5px; font-size: 15px;margin:0px;"&gt;
+                            Please find sharepoint group using picker group. When you found group you can add the group to list please use button
+                    &lt;span style="width: 22px; height: 22px; overflow: hidden; display: inline-block; position: relative;"&gt;
+                        &lt;img alt="" style="position: absolute; left: -65px; top: -179px; cursor: pointer;" src="/_layouts/15/images/spcommon.png" /&gt;
+                    &lt;/span&gt;
+                            &lt;br /&gt;
+                            To select group use button 
+            &lt;span style="cursor: pointer; width: 20px; height: 20px; overflow: hidden; display: inline-block; position: relative; vertical-align: top;"&gt;
+                &lt;img style="position: absolute; left: -178px; top: -31px;" src="/_layouts/15/images/spcommon.png" /&gt;
+            &lt;/span&gt;
+                            &lt;br /&gt;
+                            To remove group use button 
+            &lt;span style="cursor: pointer; width: 20px; height: 20px; overflow: hidden; display: inline-block; position: relative; vertical-align: top;"&gt;
+                &lt;img style="position: absolute; left: -178px; top: -75px;" src="/_layouts/15/images/spcommon.png" /&gt;
+            &lt;/span&gt;
+                        &lt;br/&gt;To save all changes use button  &lt;span style="cursor: pointer; width: 32px; height: 32px; overflow: hidden; display: inline-block; position: relative;-ms-transform:scale(0.7);-moz-transform:scale(0.7);-webkit-transform:scale(0.7);-o-transform:scale(0.7);"&gt;&lt;img alt="" style="position: absolute; left: -308px; top: -478px;" src="/_layouts/15/images/SPS.MRibbon/formatmap32x32.png" /&gt;&lt;/span&gt;&lt;br/&gt;To cancel changes or close modal window use button &lt;span style="cursor: pointer; width: 32px; height: 32px; overflow: hidden; display: inline-block; position: relative;-ms-transform:scale(0.7);-moz-transform:scale(0.7);-webkit-transform:scale(0.7);-o-transform:scale(0.7);"&gt;&lt;img alt="" style="position: absolute; left: -205px; top: -69px;" src="/_layouts/15/images/SPS.MRibbon/formatmap32x32.png" /&gt;&lt;/span&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="SS_TH_NoGroups" xml:space="preserve">
+    <value>There is no groups</value>
+  </data>
+  <data name="SS_TH_Actions" xml:space="preserve">
+    <value>&lt;div class="tabs"&gt;
+                                &lt;div class="tab"&gt;
+                                    &lt;input type="radio" id="tab-1" name="tab-group-1" checked&gt;
+                                    &lt;label for="tab-1"&gt;Page (Web Part)&lt;/label&gt;
+                                    &lt;div class="content"&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_p_edit" /&gt;Edit&lt;/span&gt;&lt;br /&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_p_mng" /&gt;Manage&lt;/span&gt;&lt;br /&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_p_share" /&gt;Share &amp; Track&lt;/span&gt;&lt;br /&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_p_apprl" /&gt;Approvals&lt;/span&gt;&lt;br /&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_p_wkf" /&gt;Workflows&lt;/span&gt;&lt;br /&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_p_acts" /&gt;Page actions&lt;/span&gt;&lt;br /&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_p_tags" /&gt;Tags &amp; Notes&lt;/span&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;div class="tab"&gt;
+                                    &lt;input type="radio" id="tab-2" name="tab-group-1"&gt;
+                                    &lt;label for="tab-2"&gt;Wiki Page&lt;/label&gt;
+                                    &lt;div class="content"&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_wp_edit" /&gt;Edit&lt;/span&gt;&lt;br /&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_wp_mng" /&gt;Manage&lt;/span&gt;&lt;br /&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_wp_share" /&gt;Share &amp; Track&lt;/span&gt;&lt;br /&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_wp_lsets" /&gt;Page library&lt;/span&gt;&lt;br /&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_wp_acts" /&gt;Page actions&lt;/span&gt;&lt;br /&gt;
+                                        &lt;span class="spn_perm"&gt;
+                                            &lt;input type="checkbox" id="rib_wp_tags" /&gt;Tags &amp; Notes&lt;/span&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;div class="tab"&gt;
+                                    &lt;input type="radio" id="tab-3" name="tab-group-1"&gt;
+                                    &lt;label for="tab-3"&gt;Documents&lt;/label&gt;
+                                    &lt;div class="content"&gt;
+                                        &lt;table cellpadding="0" cellspacing="0" border="0"&gt;
+                                            &lt;tr&gt;
+                                                &lt;td style="padding-right: 5px;vertical-align: top;"&gt;
+                                                    &lt;span style="font-weight: 900;"&gt;&amp;nbsp;Files&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_df_new" /&gt;New&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_df_open" /&gt;Open&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_df_mng" /&gt;Manage&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_df_share" /&gt;Share &amp; Track&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_df_copies" /&gt;Copies&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_df_wkf" /&gt;Workflows&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_df_tags" /&gt;Tags &amp; Notes&lt;/span&gt;
+                                                &lt;/td&gt;
+                                                &lt;td style="vertical-align: top;"&gt;
+                                                    &lt;span style="font-weight: 900;"&gt;&amp;nbsp;Library&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_dl_view_frt" /&gt;View format&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_dl_view_mng" /&gt;Manage views&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_dl_tags" /&gt;Tags &amp; Notes&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_dl_share" /&gt;Share &amp; Track&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_dl_connect" /&gt;Connect &amp; Export&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_dl_cust_libs" /&gt;Customize library&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_dl_sets" /&gt;Settings&lt;/span&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;div class="tab"&gt;
+                                    &lt;input type="radio" id="tab-4" name="tab-group-1"&gt;
+                                    &lt;label for="tab-4"&gt;List&lt;/label&gt;
+                                    &lt;div class="content"&gt;
+                                        &lt;table cellpadding="0" cellspacing="0" border="0"&gt;
+                                            &lt;tr&gt;
+                                                &lt;td style="padding-right: 5px;vertical-align: top;"&gt;
+                                                    &lt;span style="font-weight: 900;"&gt;&amp;nbsp;Items&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_li_new" /&gt;New&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_li_acts" /&gt;Actions&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_li_mng" /&gt;Manage&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_li_share" /&gt;Share &amp; Track&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_li_tags" /&gt;Tags &amp; Notes&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_li_wkf" /&gt;Workflows&lt;/span&gt;&lt;br /&gt;
+                                                &lt;/td&gt;
+                                                &lt;td style="vertical-align: top;"&gt;
+                                                    &lt;span style="font-weight: 900;"&gt;&amp;nbsp;List&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ll_view_frt"" /&gt;View format&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ll_view_mng" /&gt;Manage views&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ll_tags" /&gt;Tags &amp; Notes&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ll_share" /&gt;Share &amp; Track&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ll_connect" /&gt;Connect &amp; Export&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ll_cust_list" /&gt;Customize list&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ll_sets" /&gt;Settings&lt;/span&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;div class="tab"&gt;
+                                    &lt;input type="radio" id="tab-5" name="tab-group-1"&gt;
+                                    &lt;label for="tab-5"&gt;Calendar&lt;/label&gt;
+                                    &lt;div class="content"&gt;
+                                        &lt;table cellpadding="0" cellspacing="0" border="0"&gt;
+                                            &lt;tr&gt;
+                                                &lt;td style="padding-right: 5px;vertical-align: top;"&gt;
+                                                    &lt;span style="font-weight: 900;"&gt;&amp;nbsp;Events&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ce_new" /&gt;New&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ce_acts" /&gt;Actions&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ce_mng" /&gt;Manage&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ce_tags" /&gt;Tags &amp; Notes&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_ce_wkf" /&gt;Workflows&lt;/span&gt;&lt;br /&gt;
+                                                &lt;/td&gt;
+                                                &lt;td style="vertical-align: top;"&gt;
+                                                    &lt;span style="font-weight: 900;"&gt;&amp;nbsp;Calendar&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_cc_scope" /&gt;Scope&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_cc_exp" /&gt;Expand&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_cc_view_mng" /&gt;Manage views&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_cc_tags" /&gt;Tags &amp; Notes&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_cc_share" /&gt;Share &amp; Track&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_cc_connect" /&gt;Connect &amp; Export&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_cc_cust_list" /&gt;Customize list&lt;/span&gt;&lt;br /&gt;
+                                                    &lt;span class="spn_perm"&gt;
+                                                        &lt;input type="checkbox" id="rib_cc_sets" /&gt;Settings&lt;/span&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;</value>
+  </data>
+  <data name="SS_Msg_SysAccount" xml:space="preserve">
+    <value>You are system account with full control permission</value>
+  </data>
+</root>

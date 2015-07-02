@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="165fdfbe-25c7-405b-a680-e2c458bc4aa5" solutionId="165fdfbe-25c7-405b-a680-e2c458bc4aa5" resetWebServer="false" sharePointProductVersion="15.0" name="SPS.MRibbon" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="c593c1e6-4b62-4dd0-bd34-1c8fb667fe87" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="fdd24055-b4cf-46df-b16d-27482f3d4fe0" />
+    <projectItemReference itemId="4b820eb5-b8d6-43f0-b7ab-12efe266306b" />
+    <projectItemReference itemId="1ce1b757-72cf-4f93-b8ac-9f677116ed47" />
+    <projectItemReference itemId="1de9d574-1ab8-4215-9f33-c9948e4892d0" />
+  </projectItems>
+</package>
